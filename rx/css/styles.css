@@ -11,6 +11,7 @@ body {
   background: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  font-size: 18px;
   color: #282828;
   line-height: 26px;
   padding: 0;
@@ -297,8 +298,8 @@ color:#F9690E;
   font-size: 22px; 
 margin-bottom:20px;
 line-height:35px; 
+text-align: left;}
 
-  text-align: left;}
 #hero-banner a{
 width: 150px;
 margin: 0;
