@@ -55,7 +55,7 @@ hr {
   margin-bottom: 50px;
 }
 .section-header p{
-text-align:center;
+  text-align:center;
 }
 .section-header .section-title {
   font-size: 44px;
@@ -63,8 +63,6 @@ text-align:center;
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;  
-
-
   display: block;
   text-align: center;
 }
@@ -81,6 +79,29 @@ text-align:center;
   left: 0;
   right: 0;
   height: 10px;
+}
+
+.section-subheader {
+  margin-bottom: 20px;
+}
+.section-subheader p{
+text-align:left;
+}
+.section-subheader .section-title {
+  font-size: 24px;
+  color: #282828;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 0 20px;  
+  display: block;
+  text-align: left;
+}
+
+.section-subheader .section-title:before {
+  height: 1px;
+  width: 100%;
+  border: 0;
+  background: #282828;
 }
 
 .btn {
@@ -598,6 +619,15 @@ color:#fff;
 #about .listarrow li{
 color:#fff;
 }
+#news-letter {
+  padding: 100px 0;
+  background: #FFFFFF;  
+  background-size: cover; 
+}
+#news-letter p{
+color:#282828;
+}
+
 /*Team*/ 
 #our-team {
   padding: 100px 0;
@@ -838,11 +868,17 @@ color: #FFFFFF;
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #FFFFFF;
 }
+/*Contact-us*/
 #contact-us {
   padding: 100px 0 10px;
+  background: #282828;  
+  background-size: cover; 
 }
 #contact-us h1,
 #contact-us h2 {
+}
+#contact-us p{
+  color:#FFFFFF;
 }
 /*Contact*/
  .contact-info{
